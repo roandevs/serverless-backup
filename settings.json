@@ -1,0 +1,9 @@
+{
+    "enabledHandlers": [
+        "google",
+        "mediafire",
+        "mega.nz"
+    ],
+    "filesToUpload": [],
+    "filesToExclude": []
+}

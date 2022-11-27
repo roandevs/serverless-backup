@@ -1,0 +1,21 @@
+{
+  "name": "serverless-backup",
+  "version": "1.0.0",
+  "description": "My own personal serverless backup system utilizing rclone & S3 buckets for initial storage, AWS Lambda to backup files across multiple cloud providers such as Google Drive, MediaFire, Mega.nz etc and AWS EventBridge to periodically execute the backup function.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "roan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1257.0",
+    "axios": "^1.1.3",
+    "chunking-streams": "0.0.8",
+    "form-data": "^4.0.0",
+    "googleapis": "^109.0.1",
+    "hasha": "^5.2.2",
+    "megajs": "^1.1.0",
+    "qs": "^6.11.0"
+  }
+}
