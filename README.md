@@ -43,7 +43,7 @@
 ## Environment Variables (to set in your Lambda function)
 
 
-### Please only set the values for the providers you are using, i.e. if you are using mega.nz only, you do not have to configure the values for any google-related environment variables or mediafire related variables, however the **AWS S3**. ones are always required to be filled out.
+#### You only have to set the environment variables for the providers *you* are using, i.e. if you are using mega.nz only, you do not have to configure the values for any google-related environment variables or mediafire related variables, however the **S3** ones are always required to be filled out.
 
 | Variable Name | Value |
 | ------------- | ------------- |
