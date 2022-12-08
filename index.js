@@ -7,7 +7,7 @@ const fs = require('fs');
 exports.handler = async (event) => {
     for (let handler of settings.enabledHandlers) {
         if (!Object.keys(handlers).includes(handler)) {
-            console.log(`Handler ${handler} does not exist in handlers.js!`)
+            console.log(`Handler ${handler} does not exist in handlers.js!`);
             process.exit(1);
         }
     }
